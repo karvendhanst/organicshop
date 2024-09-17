@@ -1,0 +1,234 @@
+@media screen and (max-width:1146px){
+    .home-options{
+        width: 95%;
+    }
+}
+@media screen and (max-width:1078px){
+    .nav-mail, .nav-mobile, .nav-menus, .nav-lang{
+        display: none;
+    }
+    .toggle{
+        display: block;
+    }
+}
+@media screen and (max-width:992px){
+    .banner-title h3{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:900px){
+    .top-navbar, .bottom-navbar{
+        padding: 15px 40px;
+    }
+    .home-section, .recent-products, .about-section, .category-section, .review-section,
+    .feedback-section, .footer-top, .footer-bottom
+    {
+        padding: 3rem 40px;
+    }
+    .category-section .cat-title{
+        flex-direction: column;
+        gap: 20px 0;
+    }
+    .cat-title-list{
+        gap: 0 15px;
+    }
+}
+@media screen and (max-width:780px){
+    .home-options{
+        flex-direction: column;
+        gap: 20px 0;
+        top: 20px;
+        padding: unset;
+        box-shadow: unset;
+    }
+    .home-options .option
+    {
+        border: 1px solid rgb(238, 236, 236);
+        padding: 5px 15px;
+        border-radius: 4px;
+        margin: unset;
+        border-left: 3px solid #2BA84A;
+    }
+    .home-options .option:nth-child(1),
+    .home-options .option:nth-child(3){
+        align-self: flex-start;
+    }
+    .home-options .option:nth-child(2){
+        align-self: flex-end;
+    }
+    .about-main{
+        flex-direction: column;
+    }
+    .about-image{
+        width: 80%;
+    }
+    .about-content{
+        width: 100%;
+        text-align: center;
+    }
+    .about-content-title h3{
+        font-size: 1.8rem;
+    }
+    .fb-container{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .fb-img{
+        width: 100%;
+    }
+    .fb-img img{
+        object-fit: none;
+    }
+    .fb-form{
+        width: 90%;
+        padding: 0;
+    }
+}
+@media screen and (max-width:714px){
+    .home-banner{
+        height: 250px;
+    }
+}
+@media screen and (max-width:620px){
+    .banner-title h3{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:496px){
+    .top-navbar, .bottom-navbar{
+        padding: 15px 20px;
+    }
+    .home-section, .recent-products, .about-section, .category-section, .review-section,
+    .feedback-section, .footer-top, .footer-bottom
+    {
+        padding: 1rem 20px;
+    }
+    .home-banner{
+        height: 250px;
+        background-position: right;
+        position: relative;
+        overflow: hidden;
+    }
+    .home-banner::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.466);
+    }
+    .banner-title h3{
+        font-size: 32px;
+        margin: 10px 0;
+        color: #fff;
+    }
+    .banner-text{
+        color: #fff;
+    }
+    .banner-text span{
+        font-size: 16px;
+    }
+    .banner-btn a{
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    .nav-logo a{
+        font-size: 18px;
+    }
+    .nav-logo a span{
+        font-size: 22px;
+    }
+    .recent-products{
+        margin-top: 5rem;
+    }
+    .recent-product-content h3{
+        font-size: 22px;
+    }
+    .recent-product-btn a{
+        padding: 5px 12px;
+        font-size: 14px;
+    }
+    .recent-product-images{
+        gap: 20px 20px;
+    }
+    .recent-product-images a{
+        width: 45%;
+        height: 170px;
+    }
+    .recent-product-images a p{
+        padding: 5px 10px;
+    }
+    .about-title h3{
+        font-size: 22px;
+    }
+    .about-title-btn a{
+        padding: 5px 12px;
+        font-size: 14px;
+    }
+    .about-content a{
+        margin: auto;
+    }
+    .review-title-btn a{
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+    .footer-bottom p{
+        font-size: 13px;
+    }
+    .footer-bottom a{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+}
+
+
+/* LOGIN SECTION */
+
+@media screen and (max-width:1196px){
+    .login-container{
+        width: 80%;
+    }
+}
+@media screen and (max-width:1116px){
+    .login-container{
+        width: 100%;
+    }
+}
+@media screen and (max-width:930px){
+    .login-section{
+        padding: 2rem 40px;
+    }
+}
+@media screen and (max-width:808px){
+    .login-container{
+        flex-direction: column;
+    }
+    .login-image{
+        order: 1;
+    }
+    .login-form{
+        order: 2;
+    }
+    .login-image, .login-form{
+        width: 100%;
+    }
+    .login-form span{
+        left: 40%;
+    }
+}
+@media screen and (max-width:618px){
+    .login-section{
+        padding: .5rem 20px;
+    }
+    .login-form span{
+        left: 30%;
+    }
+}
+@media screen and (max-width:496px){
+    .login-form span{
+        left: 18%;
+    }
+}
